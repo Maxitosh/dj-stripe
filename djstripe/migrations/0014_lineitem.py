@@ -10,8 +10,6 @@ import djstripe.fields
 
 class Migration(migrations.Migration):
 
-    replaces = [("djstripe", "0014_lineitem"), ("djstripe", "0015_auto_20230126_0509")]
-
     dependencies = [
         ("djstripe", "0013_product_default_price"),
     ]
